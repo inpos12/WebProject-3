@@ -1,0 +1,337 @@
+* {
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: 'NanumSquare', sans-serif;
+  image-rendering: -moz-crisp-edges;
+  /* firefox */
+  image-rendering: -o-crisp-edges;
+  /* opera */
+  image-rendering: -webkit-optimize-contrast;
+  /* chrome(비표준) */
+  image-rendering: crisp-edges;
+  -webkit-text-size-adjust: none;
+  /* 크롬, 사파리, 오페라(신) */
+  -ms-text-size-adjust: none;
+  /* IE */
+  -moz-text-size-adjust: none;
+  /* 파이어폭스 */
+  -o-text-size-adjust: none;
+  /* 오페라(구)*/
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+#header {
+  position: relative;
+  padding-top: 104px;
+  width: 100vw;
+
+}
+
+#section-1 .container-fulid {
+  background-image: url(../img/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+
+}
+
+#section-1 .header-1 {
+  margin: 150px 0 0 20px;
+
+}
+
+#section-1 .header-2 {
+  margin: 80px 0 0 0;
+}
+
+#section-1 p {
+  margin: 50px 0 0 0;
+}
+
+#section-1 p:last-child {
+  margin-bottom: 50px;
+}
+
+#section-2 .container-fulid {
+  background-image: url(../img/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+
+}
+
+#section-2 .header-1 {
+  margin: 150px 0 0 20px;
+}
+
+#section-2 .header-2 p {
+  margin: 100px 0;
+}
+
+#section-2 .swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+#section-2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#section-2 .slide {
+  display: flex;
+  justify-content: center;
+}
+
+#section-2 .button {
+  text-align: center;
+  display: block;
+  padding: 0 0 100px 0;
+  margin-top: 100px;
+}
+
+#section-2 .button-1 {
+  border: 5px solid white;
+  padding: 15px 100px 15px 100px;
+  font-size: 25px;
+  font-weight: 600;
+  transition: all 0.4s ease-in;
+
+}
+
+#section-2 .button-1:hover {
+  background-color: white;
+  color: black;
+}
+
+#section-2 h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.4s ease-in;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#section-2 .swiper-slide:hover h3 {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+#section-3 .container-fulid {
+  background-image: url(../img/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+#section-3 .header-1 {
+  margin: 150px 0 0 20px;
+  color: black;
+}
+
+#section-3 .header-2 p {
+  margin: 100px 0;
+  color: black;
+}
+
+#section-3 .swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+#section-3 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-3 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#section-3 .slide {
+  display: flex;
+  justify-content: center;
+}
+
+#section-3 .button {
+  text-align: center;
+  display: block;
+  padding: 0 0 100px 0;
+  margin-top: 100px;
+}
+
+#section-3 .button-1 {
+  border: 5px solid black;
+  color: black;
+  padding: 15px 100px 15px 100px;
+  font-size: 25px;
+  font-weight: 600;
+  transition: all 0.4s ease-in;
+}
+
+#section-3 .button-1:hover {
+  background-color: black;
+  color: white;
+}
+
+#section-3 h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.4s ease-in;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#section-3 .swiper-slide:hover h3 {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#section-4 .container-fulid {
+  background-image: url(../img/img5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+#section-4 .header {
+  padding: 150px 0;
+}
+
+#section-4 .header-1 {
+  margin: 0 0 0 20px;
+  color: white;
+}
+
+#section-4 p {
+  margin: 0 50px 0 0;
+  color: white;
+}
+
+#section-4 .swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+#section-4 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-4 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#section-4 .slide {
+  display: flex;
+  justify-content: center;
+}
+
+#section-4 .button {
+  text-align: center;
+  display: block;
+  padding: 0 0 100px 0;
+  margin-top: 100px;
+}
+
+#section-4 .button-1 {
+  border: 5px solid white;
+  color: white;
+  padding: 15px 100px 15px 100px;
+  font-size: 25px;
+  font-weight: 600;
+  transition: all 0.4s ease-in;
+}
+
+#section-4 .button-1:hover {
+  background-color: white;
+  color: black;
+}
+
+#section-4 h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.4s ease-in;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#section-4 .swiper-slide:hover h3 {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#section-5 {
+  background-image: url(../img/img6.jpg);
+  padding: 200px 20px 340px 20px;
+  background-size: cover;
+  background-position: right;
+}
+
+#section-5 h2 {
+  padding-bottom: 150px;
+}
+
+#section-5 h3 {
+  padding-bottom: 60px;
+}
