@@ -5,8 +5,99 @@
     margin-right: 50px;
     font-weight: bold;
   }
+    #section-1 h1 {
+    font-size: 42px;
+    font-weight: 900;
+  }
+    #section-1 h2 {
+    font-size: 42px;
+    font-weight: 900;
+  }
+    #section-1 h3 {
+    font-size: 20px;
+    font-weight: 900;
+  }
+    #section-1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  #section-2 .header-1 {
+    padding: 75px 0 0 20px;
+  }
+  #section-2 .header-2 p {
+    padding: 50px 0;
+  }
+  #section-2 h1 {
+    font-size: 42px;
+    font-weight: 900;
+  }
+    #section-2 h2 {
+    font-size: 42px;
+    font-weight: 900;
+  }
+  #section-2 .header-2 p {
+    margin: 25px 0;
+  }
+  
+  #section-2 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  #section-3 .header-1 {
+    padding: 75px 0 0 20px;
+    color: black;
+  }
+  #section-3 .header-2 p {
+    padding: 50px 0;
+ 
+  }
+  
+  #section-3 h1 {
+    font-size: 42px;
+    font-weight: 900;
+  }
+    #section-3 h2 {
+    font-size: 42px;
+    font-weight: 900;
+  }
+  #section-3 p {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  #section-4 .header{
+    padding: 50px 0px;
+  }
+  #section-4 h1 {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 0;
+  }
 
-
+    #section-4 h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 0;
+  }
+  #section-4 p {
+    font-size: 15px;
+    font-weight: 800;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  #section-5 h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 0;
+  }
+  #section-5 h3 {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  #section-5 h2 {
+    padding-bottom: 70px;
+  }
   #nav img {
     width: 71px;
   }
@@ -110,3 +201,14 @@
 
 
 }
+
+/* _::-webkit-full-page-media,
+_:future,
+:root .safari_only {
+
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+} */

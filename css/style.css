@@ -5,7 +5,6 @@
   padding: 0;
   list-style: none;
   background-repeat: no-repeat;
-  position: relative;
   font-family: 'NanumSquare', sans-serif;
   image-rendering: -moz-crisp-edges;
   /* firefox */
@@ -24,59 +23,48 @@
   /* 오페라(구)*/
 }
 
-body {
-  overflow-x: hidden;
-}
-
 
 #header {
-  position: relative;
   padding-top: 104px;
-  width: 100vw;
-
 }
 
-#section-1 .container-fulid {
+#section-1 {
   background-image: url(../img/img2.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
-
-
 }
 
 #section-1 .header-1 {
   margin: 150px 0 0 20px;
-
 }
 
 #section-1 .header-2 {
-  margin: 80px 0 0 0;
+  margin-top: 80px;
 }
 
 #section-1 p {
-  margin: 50px 0 0 0;
+  margin-top: 50px;
 }
+
 
 #section-1 p:last-child {
   margin-bottom: 50px;
 }
 
-#section-2 .container-fulid {
+#section-2 {
   background-image: url(../img/img3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
-  background-position: center;
+
+
 
 }
 
 #section-2 .header-1 {
-  margin: 150px 0 0 20px;
+  padding: 150px 0 0 20px;
 }
 
 #section-2 .header-2 p {
-  margin: 100px 0;
+  padding: 100px 0;
 }
 
 #section-2 .swiper {
@@ -147,7 +135,7 @@ body {
 
 
 
-#section-3 .container-fulid {
+#section-3 {
   background-image: url(../img/img4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,12 +144,12 @@ body {
 }
 
 #section-3 .header-1 {
-  margin: 150px 0 0 20px;
+  padding: 150px 0 0 20px;
   color: black;
 }
 
 #section-3 .header-2 p {
-  margin: 100px 0;
+  padding: 100px 0;
   color: black;
 }
 
@@ -232,7 +220,7 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-#section-4 .container-fulid {
+#section-4 {
   background-image: url(../img/img5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -325,7 +313,9 @@ body {
   background-image: url(../img/img6.jpg);
   padding: 200px 20px 340px 20px;
   background-size: cover;
-  background-position: right;
+  background-position: 75% 50%;
+
+
 }
 
 #section-5 h2 {
