@@ -22,6 +22,9 @@
   -o-text-size-adjust: none;
   /* 오페라(구)*/
 }
+body,html{
+  overflow-x: hidden;
+}
 
 
 #header {
